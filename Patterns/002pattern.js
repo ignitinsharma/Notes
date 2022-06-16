@@ -6,7 +6,6 @@
 let n=3;
 let bag="";
 for(let i=1; i<=n*n; i++){
-let count=0;
   bag+=i+" ";
   if(i%n==0){
     bag+='\n'
