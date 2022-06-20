@@ -1,3 +1,5 @@
+//parameter and rectangle by using functions
+
  let obj={
 
      len : 2,
@@ -19,3 +21,4 @@
 
 obj["areaof"]();
 obj["area"]();
+
