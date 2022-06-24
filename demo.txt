@@ -1,0 +1,39 @@
+let arr=[[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+let N=arr.length;
+let M=arr[0].length;
+for(let x=0;x<N;x++){
+    console.log(arr[x][0]);
+} 
+for(y=1;y<M;y++){
+    console.log(arr[N-1][y]);
+}
+for(let x=N-2;x>=0;x--){
+    console.log(arr[x][M-1]);
+}
+for(x=M-2;x>=1;x--){
+    console.log(arr[0][x]);
+}
+for(let x=1;x<=N-2;x++){
+    console.log(arr[x][1]);
+}
+if(N<M){
+for(let x=M-2;x<=M-2;x++){
+    console.log(arr[N-2][x]);
+}
+}
+
+
+
+
+
+// let arr=[[1,2,3],[4,5,6],[7,8,9]]
+// let N=arr.length;
+// for(let x=N-1;x>=0;x--){
+//     console.log(arr[x][0]);
+// } 
+// for(let x=1,y=1;x<N && y<N;x++,y++){
+//     console.log(arr[x][y]);
+// } 
+// for(let x=N-2;x>=0;x--){
+//     console.log(arr[x][N-1]);
+// }
