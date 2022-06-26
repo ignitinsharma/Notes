@@ -3,10 +3,10 @@
  let matrix= [[1,2,3],
              [4,5,6],
             [7,8,9]];
-
+let N=3;
             //output should be like this
             // 7 4 1 2 3 6 9 8
- let N=3;
+ 
 
 
     let bag="";
