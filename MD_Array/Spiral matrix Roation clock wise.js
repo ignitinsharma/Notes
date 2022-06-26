@@ -1,5 +1,14 @@
-function cirTraversal(matrix,N) {
+
 //write code here
+ let matrix= [[1,2,3],
+             [4,5,6],
+            [7,8,9]];
+
+            //output should be like this
+            // 7 4 1 2 3 6 9 8
+ let N=3;
+
+
     let bag="";
     for(let i=N-1; i>=0;i--){
         bag=bag+matrix[i][0]+" ";
@@ -14,4 +23,3 @@ function cirTraversal(matrix,N) {
         bag=bag+matrix[N-1][m]+" ";
     }
     console.log(bag)
-}
