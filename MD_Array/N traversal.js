@@ -1,5 +1,15 @@
 
-function nTraversal(matrix) {
+let matrix= [[1,2,3],
+            [4,5,6],
+            [7,8,9]];
+
+// N printing
+// output like this 7 4 1 5 9 6 3 
+    /*  ^ 1   3
+          4 5 6           like N
+          7   9
+    */
+
     let n=matrix.length;
     let bag="";
     for(let i=n-1; i>=0; i--){
@@ -14,4 +24,4 @@ function nTraversal(matrix) {
         bag=bag+matrix[l][n-1]+" ";
     }
     console.log(bag)
-}
+
