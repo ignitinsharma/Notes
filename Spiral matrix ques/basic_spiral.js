@@ -16,25 +16,28 @@ let bag=" ";
 
 while(top<=bottom && left<=right){
 
-    //this lool run for first row to last colcumn
+    //this lool run from first row to last column print 1 2 3
 for(let i=0; i<=right; i++){
     bag=bag+arr[top][i]+" ";
 }
     top++; 
 
-
+    
+    //this lool run from first last column to last row print 6 9
 for(let j= top; j<=bottom; j++){
     bag=bag+arr[j][right]+" ";
 
 }
     right--;
 
+    //this lool run from 2nd last column to first column and print 8 7
 for(let k=right; k>=left; k--){
 
     bag=bag+arr[bottom][k]+" ";
 }   
     bottom--;
 
+    //this lool run from 2nd last column to 2nd row and print 4
 for(let l=bottom; l>ktop; l--){
     bag=bag+arr[l][left]+" "
     }
