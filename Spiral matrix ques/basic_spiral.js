@@ -1,6 +1,6 @@
 //spiral #matrix in js 3*3 matrix 
 
-
+// answer is 1 2 3 6 9 8 7 4 5
 
 let arr = [[1,2,3],
         [4,5,6],
@@ -38,7 +38,7 @@ for(let k=right; k>=left; k--){
     bottom--;
 
     //this lool run from 2nd last column to 2nd row and print 4
-for(let l=bottom; l>ktop; l--){
+for(let l=bottom; l>top; l--){
     bag=bag+arr[l][left]+" "
     }
     left++;
