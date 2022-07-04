@@ -1,6 +1,6 @@
 //spiral #matrix in js 3*3 matrix 
 
-// answer is 1 2 3 6 9 8 7 4 5
+// answer is 1 2 3 6 9 8 7 4 5 in that form
 
 let arr = [[1,2,3],
         [4,5,6],
